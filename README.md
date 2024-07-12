@@ -11,8 +11,7 @@ npm i requests
 and launch index.js again.
 
 # ScreenShots
-![image](https://github.com/user-attachments/assets/c1688cdb-1cfb-427a-8073-9ed58b39e0d1)
+![image](https://github.com/user-attachments/assets/34cca97f-6e8f-4b4e-8793-5e05996578b7)
 
-![image](https://github.com/user-attachments/assets/97975f8d-d5b2-4d89-8b6b-76fabbf9e1da)
 
-you will find the the temp shown is 306.2 C insted of 36.2 and similar for minimun and maximum temperature, it's Api glitch, nothing to worries.
+![image](https://github.com/user-attachments/assets/1b88194f-1ea2-4b5c-8476-bea19ec71a38)
