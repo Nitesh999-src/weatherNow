@@ -29,7 +29,7 @@ const server = http.createServer((req, res) => {
     const country = queryObject.country;
 
     request(
-      `https://api.openweathermap.org/data/2.5/weather?q=${city},${country}&appid=a6835fc714ca7e7b0881adeb79dee4ac`
+      `https://api.openweathermap.org/data/2.5/weather?q=${city},${country}&appid=a6835fc714ca7e7b0881adeb79dee4ac&units=metric`
     )
       .on("data", (chunk) => {
         const objData = JSON.parse(chunk);
