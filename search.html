@@ -1,0 +1,73 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Location Search</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+        }
+        .search-bar {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .search-bar input[type="text"],
+        .search-bar select,
+        .search-bar input[type="submit"] {
+            padding: 10px;
+            margin: 5px 0;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        .search-bar input[type="submit"] {
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        .search-bar input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="search-bar">
+        <form action="/search" method="get">
+            <label for="city">City Name:</label><br>
+            <input type="text" id="city" name="city" required><br><br>
+            <label for="country">Country Code:</label><br>
+            <select id="country" name="country" required>
+                <option value="">Select a country</option>
+                <option value="US">United States</option>
+                <option value="CA">Canada</option>
+                <option value="GB">United Kingdom</option>
+                <option value="AU">Australia</option>
+                <option value="DE">Germany</option>
+                <option value="FR">France</option>
+                <option value="IN">India</option>
+                <option value="JP">Japan</option>
+                <option value="CN">China</option>
+                <option value="BR">Brazil</option>
+                <option value="RU">Russia</option>
+                <option value="MX">Mexico</option>
+                <option value="IT">Italy</option>
+                <option value="ES">Spain</option>
+                
+            </select><br><br>
+            <input type="submit" value="Search">
+        </form>
+    </div>
+</body>
+</html>  

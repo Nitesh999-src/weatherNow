@@ -1,0 +1,14 @@
+{
+  "name": "weatherwithnodejs",
+  "version": "1.0.0",
+  "description": "Building weather app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nitesh",
+  "license": "ISC",
+  "dependencies": {
+    "requests": "^0.3.0"
+  }
+}
